@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "br.edu.ifsp.scl.sdm.entityservicecommunicationclient"
-    compileSdk = 34
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "br.edu.ifsp.scl.sdm.entityservicecommunicationclient"
@@ -45,6 +45,7 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation(libs.androidx.camera.camera2.pipe)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
